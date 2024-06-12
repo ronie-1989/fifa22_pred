@@ -44,7 +44,7 @@ elif args.wd < 0:
     raise Exception('invalid weight decay')
 
 # login to weights and biases
-wandb.login(key='147686d07ab47cb770a0957694c8a6f896671f2c')
+wandb.login(key='')
 
 # check GPU access
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
